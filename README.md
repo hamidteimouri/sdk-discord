@@ -2,7 +2,7 @@
 
 ## Installation
 ```shell
-go get -u github.com:hamidteimouri/sdk-discord
+go get -u github.com/hamidteimouri/sdk-discord
 ```
 
 ## How to use
@@ -11,7 +11,7 @@ package main
 
 import (
 	"fmt"
-	"github.com:hamidteimouri/sdk-discord"
+	"github.com/hamidteimouri/sdk-discord"
 )
 
 func main() {

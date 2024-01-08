@@ -21,9 +21,16 @@ func main() {
 		Title:   "Your title of message", // optional
 	})
 	
-	err := d.Info("This is subject", "This is body", "This is subject2", "This is body2")
+	err := d.Info("This is subject", "This is body", "This is subject 2", "This is body 2")
 	if err != nil {
 		fmt.Println("err: " + err.Error())
 	}
 }
 ```
+
+### Sample
+This is sample of the messages. <br>
+- info  <br>
+![](assets/img.png)
+- Error  <br>
+![](assets/img-error.png)
